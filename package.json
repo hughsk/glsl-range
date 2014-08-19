@@ -1,0 +1,38 @@
+{
+  "name": "glsl-range",
+  "version": "1.0.0",
+  "description": "The opposite of mix in GLSL: pass in a min/max/actual value and recieve a range value describing how far the actual is between min and max.",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "glslify test.glsl | glsl-testify | tap-spec"
+  },
+  "author": {
+    "name": "Hugh Kennedy",
+    "email": "hughskennedy@gmail.com",
+    "url": "http://hughsk.io/"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "glsl-testify": "^1.0.0",
+    "glslify": "^1.6.0",
+    "tap-spec": "^0.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hughsk/glsl-range.git"
+  },
+  "keywords": [
+    "min",
+    "max",
+    "range",
+    "mix",
+    "glsl",
+    "glslify",
+    "shader"
+  ],
+  "homepage": "https://github.com/hughsk/glsl-range",
+  "bugs": {
+    "url": "https://github.com/hughsk/glsl-range/issues"
+  }
+}
